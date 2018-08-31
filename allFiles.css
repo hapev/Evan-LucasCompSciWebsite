@@ -1,0 +1,63 @@
+@font-face {
+font-family: Capsuula;
+src: url(/Fonts/Capsuula.ttf);
+}
+
+.navbar {
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    
+
+
+
+}
+
+.navbar li{
+    float:right;
+    
+ 
+}
+
+.navbar li a{
+   display: block;
+    font-family: Capsuula,Tahoma,  sans-serif;
+
+    color: white;
+    text-align: center;
+    padding: 12.75px 16px;
+    text-decoration: none;
+}
+.navbar li :hover{
+    background-color: hsl(199, 69%, 30%)
+       
+        
+}
+li.pic{
+   float:left;
+    
+}
+li.pic a{
+
+    padding: 0px 0px 0px;
+}
+body {
+    background-color: black;
+}
+p{
+    
+    color: white;
+}
+h1,h2,h3{
+    
+   
+    
+    font-family: Capsuula,Tahoma,  sans-serif;
+
+    text-align: center;
+    
+    color:white;
+    
+}
