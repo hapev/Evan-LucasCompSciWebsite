@@ -54,10 +54,32 @@ h1,h2,h3{
     
    
     
-    font-family: Capsuula,Tahoma,  sans-serif;
+    font-family: Capsuula, Tahoma,  sans-serif;
 
     text-align: center;
     
     color:white;
     
 }
+squaredHeader{
+    max-width: 450px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: darkcyan;
+}
+headerBasic{
+    margin-top: 0px;
+}
+.leftP {
+text-align:left;
+max-width: 400px;
+}
+.leftHeader {
+    text-align: left;
+    
+}
+back1{
+    background-image: url(IndexPhotos/backgroundOne.JPG);
+    background-size:contain;
+    }
