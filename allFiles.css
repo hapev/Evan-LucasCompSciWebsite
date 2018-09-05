@@ -1,6 +1,6 @@
 @font-face {
 font-family: Capsuula;
-src: url(/Fonts/Capsuula.ttf);
+src: url(Fonts/Capsuula.ttf);
 }
 
 .navbar {
@@ -67,13 +67,16 @@ squaredHeader{
     margin-left: auto;
     margin-right:auto;
     background-color: darkcyan;
+    color:darkred;
 }
 headerBasic{
     margin-top: 0px;
+    color:lightgray;
 }
 .leftP {
 text-align:left;
 max-width: 400px;
+    font-family: Capsuula, Tahoma,  sans-serif;
 }
 .leftHeader {
     text-align: left;
@@ -83,3 +86,6 @@ back1{
     background-image: url(IndexPhotos/backgroundOne.JPG);
     background-size:contain;
     }
+.advancedP {
+   
+}
