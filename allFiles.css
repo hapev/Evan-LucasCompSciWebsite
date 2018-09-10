@@ -68,10 +68,12 @@ squaredHeader{
     margin-right:auto;
     background-color: darkcyan;
     color:darkred;
+    
 }
 headerBasic{
     margin-top: 0px;
     color:lightgray;
+    
 }
 .leftP {
 text-align:left;
