@@ -20,6 +20,9 @@ list-style-type: none;
     
  
 }
+li{
+    color:white;
+}
 
 .navbar li a{
    display: block;
@@ -31,8 +34,7 @@ list-style-type: none;
     text-decoration: none;
 }
 .navbar li :hover{
-    background-color: hsl(199, 69%, 30%)
-       
+    background-color: hsl(199, 69%, 30%)     
         
 }
 li.pic{
@@ -82,6 +84,16 @@ max-width: 400px;
 }
 .leftHeader {
     text-align: left;
+    
+}
+.rightP {
+text-align:right;
+max-width: 400px;
+    font-family: Capsuula, Tahoma,  sans-serif;
+}
+.rightHeader {
+    text-align: right;
+    align-items: right;
     
 }
 back1{
