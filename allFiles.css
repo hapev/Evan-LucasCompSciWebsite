@@ -92,13 +92,15 @@ max-width: 400px;
     
 }
 .rightP {
+
 text-align:right;
 max-width: 400px;
-    font-family: Capsuula, Tahoma,  sans-serif;
+
+
 }
 .rightHeader {
     text-align: right;
-    align-items: right;
+    
     
 }
 back1{
@@ -106,6 +108,17 @@ back1{
     background-size:contain;
     }
 p {
+<<<<<<< HEAD
    
 }
 
+=======
+     font-family: Capsuula, Tahoma,  sans-serif;
+}
+.noBullets li{
+    list-style: none;
+}
+li{
+      font-family: Capsuula, Tahoma,  sans-serif;
+}
+>>>>>>> a985995e7e06dbf78c42fa5da81b22cded049515
