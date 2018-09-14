@@ -79,7 +79,7 @@ headerBasic{
 }
 .leftP {
 text-align:left;
-max-width: 400px;
+max-width: 500px;
     font-family: Capsuula, Tahoma,  sans-serif;
 }
 .leftHeader {
@@ -109,11 +109,12 @@ back1{
     background-size:contain;
     }
 p {
-<<<<<<< HEAD
-   
+
+        font-family: Capsuula, Tahoma,  sans-serif;
+
 }
 
-=======
+
      font-family: Capsuula, Tahoma,  sans-serif;
 }
 .noBullets li{
@@ -122,4 +123,4 @@ p {
 li{
       font-family: Capsuula, Tahoma,  sans-serif;
 }
->>>>>>> a985995e7e06dbf78c42fa5da81b22cded049515
+
