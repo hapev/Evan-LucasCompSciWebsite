@@ -114,13 +114,34 @@ p {
 
 }
 
-
+li{
      font-family: Capsuula, Tahoma,  sans-serif;
 }
-.noBullets li{
-    list-style: none;
+.closer{
+    padding-left: 15%;
+    padding-right:15%;
 }
-li{
-      font-family: Capsuula, Tahoma,  sans-serif;
+.centeredImage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
+.studentInfoButton a{
+    background-color: darkcyan;
+     text-decoration: none;
+        color:white;
+   
+}
+.studentInfoButton :hover{
+    background-color: darkgray;
+     text-decoration: none;
+}
+.centeredHeader{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
 
