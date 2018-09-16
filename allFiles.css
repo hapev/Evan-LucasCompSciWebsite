@@ -16,6 +16,7 @@ list-style-type: none;
 li{
     color:white;
     font-family: Capsuula, Tahoma,  sans-serif;
+    font-size: 18px;
 }
 
 .navbar li a{
@@ -45,6 +46,7 @@ body {
 p{
     font-family: Capsuula, Tahoma,  sans-serif;
     color: white;
+    font-size: 18px;
 }
 h1,h2,h3{
     
@@ -107,8 +109,8 @@ back1{
     }
 
 .closer{
-    padding-left: 15%;
-    padding-right:15%;
+    padding-left: 12%;
+    padding-right:12%;
 }
 .centeredImage{
     display:block;
