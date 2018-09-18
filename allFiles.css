@@ -131,4 +131,9 @@ back1{
 .grayHovered:hover{
     background-color: darkgray;
 }
-
+.topPadded{
+    padding-top: 40px;
+}
+li li{
+    padding-top: 20px
+}
