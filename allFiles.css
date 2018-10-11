@@ -8,6 +8,7 @@ list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position:fixed;
 }
 
 .navbar li{
@@ -136,4 +137,7 @@ back1{
 }
 li li{
     padding-top: 20px
+}
+#welcome{
+    font-size: 32px;
 }
