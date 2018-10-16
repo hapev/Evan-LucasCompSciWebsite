@@ -5,7 +5,7 @@ document.getElementById("welcome").innerHTML="Welcome " + sessionStorage.getItem
 
 function submitId(){
 
-var firstNameIn = document.getElementById("FirstNameInput").value
+var firstNameIn = document.getElementById("FirstNameInput").value;
 var lastNameIn = document.getElementById("LastNameInput").value;
 var loggedInBoolean = "yes";
 sessionStorage.setItem("firstName",firstNameIn);
@@ -16,8 +16,6 @@ window.location.replace('../index.html');
 }
 
 
-
-
 function signedIn(){
     if (sessionStorage.getItem("loggedIn")==="yes"){
         return true;
@@ -25,10 +23,19 @@ function signedIn(){
     return false;
 }
 
+
+
+
+
+
 if(signedIn()){
     
-                document.getElementById("loginTab").innerHTML="Logout";
+            document.getElementById("loginTab").innerHTML="Logout";
 }
+
+
+
+
 
 function logout(){
     
@@ -41,5 +48,8 @@ function logout(){
         sessionStorage.setItem("loggedIn",nal);
 
     }
-    
 }
+
+
+
+$("#loadIn h1").delay(100).animate({ opacity: 1 }, 1500);
