@@ -1,4 +1,6 @@
-
+if (sessionStorage.getItem("loggedIn")==="yes"){
+    document.getElementById("loginTab").textContent="Logout";
+}
 if (sessionStorage.getItem("firstName")!=""&&sessionStorage.getItem("firstName")!=null){
 document.getElementById("welcome").innerHTML="Welcome " + sessionStorage.getItem("firstName")+ "!";
 }
@@ -18,6 +20,8 @@ window.location.replace('../index.html');
 
 function signedIn(){
     if (sessionStorage.getItem("loggedIn")==="yes"){
+               console.log("Called");
+
         return true;
     }
     return false;
@@ -25,13 +29,6 @@ function signedIn(){
 
 
 
-
-
-
-if(signedIn()){
-    
-            document.getElementById("loginTab").innerHTML="Logout";
-}
 
 
 
