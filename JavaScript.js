@@ -1,6 +1,9 @@
+
+
 if (sessionStorage.getItem("loggedIn")==="yes"){
     document.getElementById("loginTab").textContent="Logout";
 }
+
 if (sessionStorage.getItem("firstName")!=""&&sessionStorage.getItem("firstName")!=null){
 document.getElementById("welcome").innerHTML="Welcome " + sessionStorage.getItem("firstName")+ "!";
 }
@@ -48,5 +51,5 @@ function logout(){
 }
 
 
-
-$("#loadIn h1").delay(100).animate({ opacity: 1 }, 1500);
+//
+//$("#loadIn h1").delay(100).animate({ opacity: 1 }, 1500);

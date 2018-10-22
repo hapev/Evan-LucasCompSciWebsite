@@ -1,7 +1,7 @@
 
-$(".fadeIn").delay(100).animate({ opacity: 1 }, 600);
+$(".fadeIn").animate({ opacity: 1 }, 600);
 
-$(".slowFadeIn").delay(100).animate({ opacity: 1 }, 1500);
+$(".slowFadeIn").animate({ opacity: 1 }, 1500);
 
-$(".lateFadeIn").delay(1600).animate({ opacity: 1 }, 600);
-$(".lateFadeIn2").delay(2100).animate({ opacity: 1 }, 600);
+$(".lateFadeIn").delay(1000).animate({ opacity: 1 }, 600);
+$(".lateFadeIn2").delay(1600).animate({ opacity: 1 }, 600);
