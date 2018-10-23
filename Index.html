@@ -2,83 +2,91 @@
     <head>
         <Title>Home</Title>
         <link href = "allFiles.css" type = "text/css" rel = "stylesheet">
-        
+        <link rel="stylesheet" href="animate.css">    
         <ul class = navbar>
             <li class = "pic"><a class = "pic" href = "Index.html"><img src ="IndexPhotos/Logo.png"></a></li>
-           <li><a href ="Pages/Students.html">Students</a></li> 
-           <li><a href ="Pages/Class.html">Class</a></li> 
-           <li><a href ="Pages/Curriculum.html">Curriculum</a></li> 
-               <li><a href ="Pages/Instructor.html">Instructor</a></li> 
-               <li><a href ="Pages/login.html" id = "loginTab" onclick="logout()"> Login</a></li> 
-           
-        </ul>
-         <script src = "JavaScript.js"></script>
-    </head>
-    
-    <Body>
-        <div style="background-image: url(IndexPhotos/backgroundOne.png);width: 1280px;min-height: 720px;margin: 0 auto;display:flex;align-items: center;" id = "loadIn">
-  
-            <div style="padding-left: 300px;">
-            <h1>
+            <li><a href ="Pages/Students.html">Students</a></li> 
+            <li><a href ="Pages/Class.html">Class</a></li> 
+            <li><a href ="Pages/Curriculum.html">Curriculum</a></li> 
+            <li><a href ="Pages/Instructor.html">Instructor</a></li> 
+            <li><a href ="Pages/login.html" id = "loginTab" onclick="logout()"> Login</a></li> 
 
-                <b>
-           <div style="color:lightgray">
-                    [HONORS COMPUTER SCIENCE]
-                    </div>
-            </b>
-            
+        </ul>
+        <script src = "JavaScript.js"></script>
+    </head>
+
+    <Body>
+
+        <div style="background-image: url(IndexPhotos/backgroundOne.png);width: 1280px;min-height: 720px;margin: 0 auto;display:flex;align-items: center;" id = "loadIn">
+
+            <div style="padding-left: 300px;">
+                <h1>
+
+                    <b>
+                        <div style="color:lightgray">
+                            [HONORS COMPUTER SCIENCE]
+                        </div>
+                    </b>
+
                 </h1>
             </div>
-                 
-    
+
+
         </div>
         <h1 id = "welcome"></h1>
-        
+        <div class = "wow fadeInRight"> 
 
-        <h2 class = leftHeader style = "padding-left: 250px;padding-top: 200px">
-        Great Computers, Even Greater Minds
-        </h2>
-       
-        <p class = leftP style ="padding-left: 250px">
-        Each of the students in the class have gone through the demanding and impressive Java I and II courses at the Bishop's School. They are all ready to learn and take on the challenging Honors Computer's Science course. Click <a href = "Pages/Students.html" class = grayHovered>here</a> to visit the Students page. Click <a href = "Pages/instructor.html" class = grayHovered>here</a> to learn about our instructor, John Lewis. 
-             <img src = "IndexPhotos/computerMind.jpg" >
-        </p>
-         
- 
-         <h2 class = rightHeader style = "padding-top: 200px">Why Do We Study Computer Science?
-        </h2>
-       
-        <p class = rightP>
-        We study computer science for the future. In a world where humans have just glimpsed the beginnings of computers, AI, space travel, biotech, and more, a background in computer science becomes ever-more important. As technology advances, more and more will be developed, and mankind will one day be able to do things we never dreamed of. Why would you not want to learn computer science? Click <a href = "Pages/Curriculum.html" class = grayHovered>here</a> to learn about our curriculum. Click <a href = "Pages/Class.html" class = grayHovered>here</a> to learn about the class.
-        <img src = "IndexPhotos/Tree.jpg" style = "padding-left: 75px">
-       
-        </p>
-        
-         <h2 class = leftHeader style = "padding-left: 250px;padding-top: 200px">
-       The Creators
-        </h2>
-       
-        <p class = leftP style ="padding-left: 250px">
-            Evan Coats and Lucas Buu-Hoan are two expirienced coders with knowledge of HTML / CSS, Java, Processing, and more. Both students attend the Bishop's School in La Jolla, California. They are currently in an Honors Computer Science Class. For more information, you can contact Evan and Lucas at <a href = mailto: Evan.Coats.21@Bishops.com>Evan.Coats.21@Bishops.com</a> and <a href = mailto: Lucas.Buu-Hoan.21@Bishops.com>Lucas.Buu-Hoan.21@Bishops.com</a>
-       
-        </p>
-        
-              
-       S=
+            <h2 class = leftHeader style = "padding-left: 250px; margin-top:100px">
+                Great Computers, Even Greater Minds
+            </h2>
 
+            <p class = leftP style ="padding-left: 250px">
+                Each of the students in the class have gone through the demanding and impressive Java I and II courses at the Bishop's School. They are all ready to learn and take on the challenging Honors Computer's Science course. Click <a href = "Pages/Students.html" class = grayHovered>here</a> to visit the Students page. Click <a href = "Pages/instructor.html" class = grayHovered>here</a> to learn about our instructor, John Lewis. 
+                <img src = "IndexPhotos/computerMind.jpg" >
+            </p>
+        </div>
+        <div class = "wow fadeInLeft">
+            <h2 class = rightHeader   >Why Do We Study Computer Science?
+            </h2>
+
+            <p class = rightP>
+                We study computer science for the future. In a world where humans have just glimpsed the beginnings of computers, AI, space travel, biotech, and more, a background in computer science becomes ever-more important. As technology advances, more and more will be developed, and mankind will one day be able to do things we never dreamed of. Why would you not want to learn computer science? Click <a href = "Pages/Curriculum.html" class = grayHovered>here</a> to learn about our curriculum. Click <a href = "Pages/Class.html" class = grayHovered>here</a> to learn about the class.
+                <img src = "IndexPhotos/Tree.jpg" style = "padding-left: 75px">
+
+            </p>
+        </div>
+        <div class = "wow fadeInRight">
+            <h2 class = leftHeader style = "padding-left: 250px;">
+                The Creators
+            </h2>
+
+            <p class = leftP style ="padding-left: 250px">
+                Evan Coats and Lucas Buu-Hoan are two expirienced coders with knowledge of HTML / CSS, Java, Processing, and more. Both students attend the Bishop's School in La Jolla, California. They are currently in an Honors Computer Science Class. For more information, you can contact Evan and Lucas at <a href = mailto: Evan.Coats.21@Bishops.com>Evan.Coats.21@Bishops.com</a> and <a href = mailto: Lucas.Buu-Hoan.21@Bishops.com>Lucas.Buu-Hoan.21@Bishops.com</a>
+
+            </p>
+        </div>
+
+
+
+        <script src="wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <script src = "JavaScript.js"></script>
 
+
+
     </Body>
-    <footer style = "padding-top: 400px">
-        <h3 style = "background-color:hsl(199, 69%, 30%);padding-top= 50px;text-align: left;padding-left: 15%; color: black;">
-        <a href = "Index.html" style = "text-decoration: none; color: black; " > <br> Home</a>
+    <footer>
+        <h3 style = "padding-top= 50px;text-align: left;padding-left: 250px; color: black;">
+            <a href = "Index.html" style = "text-decoration: none; color: black; " > <br> Home</a>
             <a href = "Pages/Class.html" style = "text-decoration: none; color: black" > <br> Class</a> 
-         <a href = "Pages/Curriculum.html" style = "text-decoration: none; color: black; " > <br> Curriculum</a> 
-        <a href = "Pages/Instructor.html" style = "text-decoration: none; color: black; " > <br> Instructor</a> 
-        <a href = "Pages/Students.html" style = "text-decoration: none; color: black; " > <br> Students</a>
-        
-        <div style = "font-size:14px;">Created By Evan Coats and Lucas Buu-Hoan </div></h3>
-        
+            <a href = "Pages/Curriculum.html" style = "text-decoration: none; color: black; " > <br> Curriculum</a> 
+            <a href = "Pages/Instructor.html" style = "text-decoration: none; color: black; " > <br> Instructor</a> 
+            <a href = "Pages/Students.html" style = "text-decoration: none; color: black; " > <br> Students</a>
+
+            <div style = "font-size:14px;">Created By Evan Coats and Lucas Buu-Hoan </div></h3>
+
     </footer>
-    
+
 </html>

@@ -170,7 +170,7 @@ li li{
     opacity: 0;
     
 }
-@keyframes fadeIn {
+@keyframes loadIn {
 	from {
 		opacity: 0;
 		transform: translate3d(0, -20%, 0);
@@ -182,10 +182,20 @@ li li{
 }
 #loadIn h1{
     	opacity: 0;
-	animation: fadeIn 1s ease-in both;
+	animation: loadIn 1s ease-in both;
 }
 #Quote {
     opacity:0;
-    animation: fadeIn 1s ease-in both;
+    animation: loadIn 1s ease-in both;
     
+}
+footer {
+   position:static;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 0 0 0;
+    background-color:hsl(199, 69%, 30%);
+    width: 100%;
 }
