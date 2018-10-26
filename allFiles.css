@@ -32,7 +32,8 @@ li{
     text-decoration: none;
 }
 .navbar li :hover{
-    background-color: hsl(199, 69%, 30%)     
+    background-color: hsl(199, 69%, 30%);
+    cursor: pointer;
         
 }
 li.pic{
@@ -133,6 +134,8 @@ back1{
 }
 .grayHovered:hover{
     background-color: darkgray;
+        cursor: pointer;
+
 }
 .topPadded{
     padding-top: 40px;
